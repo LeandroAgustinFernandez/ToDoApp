@@ -1,0 +1,65 @@
+.todo {
+    width: 100%;
+    gap: 5px;
+    padding: 0;
+    background-color: #f7f7f7;
+    border-radius: 5px;
+    margin-bottom: .5rem;
+}
+
+.todo .todo-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.todo > p{
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+    background-color: rgb(255, 0, 0,0.4);
+    color:white;
+    border-radius: 0 0 5px 5px;
+}
+
+.todo input {
+    width: 100%;
+    border:none;
+    outline: none;
+    margin: 0 10px;
+    padding-bottom: 10px;
+    height: 100%;
+}
+
+.todo .todoTitle {
+    flex: 1;
+    font-size: 1.2rem;
+    margin: 0;
+    padding: 0 10px;
+}
+
+.todo .todo-container .btn {
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    color:rgb(255, 255, 255);
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.todo .btn-edit {
+    background-color: rgb(21, 71, 177, 0.9);
+}
+
+.todo .btn-del {
+    background-color: rgba(177, 21, 21, 0.9);
+}
+
+.todo .btn-edit:hover {
+    background-color: rgb(21, 71, 177, 0.6);
+}
+
+.todo .btn-del:hover {
+    background-color: rgba(177, 21, 21, 0.6);
+}
